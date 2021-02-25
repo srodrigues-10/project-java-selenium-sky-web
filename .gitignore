@@ -1,0 +1,13 @@
+*.class
+.scannerwork/*
+
+# Ignorar tudo dentro da pasta de evidencias
+src/test/resources/Evidencias/*
+src/test/resources/Logs/*
+
+# Exceto pelo arquivo .gitkeep, para que a pasta de evidencias se mantenha
+!src/test/resources/Evidencias/.gitkeep
+!src/test/resources/Logs/.gitkeep
+
+# Ignora a pasta target
+/target/
